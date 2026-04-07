@@ -1,0 +1,50 @@
+# Geheimnisse — NIEMALS auf GitHub hochladen
+.env
+
+# Lokale Datenbank
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Knowledge (private Unternehmensdateien)
+knowledge/*
+!knowledge/.gitkeep
+
+# Von Claude Code während des Onboardings generierte Dateien
+agent/
+config/
+tests/
+requirements.txt
+Dockerfile
+docker-compose.yml
+
+# Session-Status
+config/session.yaml
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Docker
+.dockerignore
+
+# Node (falls für Claude Code verwendet)
+node_modules/
